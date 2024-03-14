@@ -16,7 +16,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://viet:CDeng!2016@cluster0.xsmec5y.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Cluster0"
+    ""
   )
   .then(() => {
     console.log("Connect to mongodb");

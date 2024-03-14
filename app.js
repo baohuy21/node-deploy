@@ -16,7 +16,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    ""
+    "mongodb+srv://database:Z2w4VbolnzUgKQtM@deploy.linvsla.mongodb.net/?retryWrites=true&w=majority&appName=deploy"
   )
   .then(() => {
     console.log("Connect to mongodb");
